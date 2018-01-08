@@ -7,8 +7,12 @@
 
 # Current Results on CelebA
 
-The project needs to be improved further.
+The project needs to be improved further. Experiments met expectation, but backgrounds of faces are not diverse, at the same time, when the rate between high frequency components and low frequency components is one, the images are not clear as BEGAN's results. So this project needs to be improved further.
 
 ## Keeping rate of high frequency components canstant and increasing rate of low frequency components from top to bottom in the follwing image:
-On this ocassion, images's color become richer and richer, as real images' changing with increasing rate of low frequency components.
-![1](https://github.com/GuangyuanHao/WaveletGAN/raw/master/results/samples.png)
+  On this ocassion, images's color become richer and richer, as real images' changing with increasing rate of low frequency components.
+  ![1](https://github.com/GuangyuanHao/FourierGAN/raw/master/results/high.jpg)
+## Keeping rate of low frequency components canstant and decreasing rate of high frequency components from top to bottom in the follwing image:
+  On this ocassion, images's definition become lower and lower, as real images' changing with decreasing rate of low frequency components.
+  ![1](https://github.com/GuangyuanHao/FourierGAN/raw/master/results/low.jpg)
+  
